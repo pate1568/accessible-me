@@ -14,9 +14,10 @@
 
 <body>
   <header class="site-header">
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <h1>Jam Box Studios</h1>
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Primary navigation">
+
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
@@ -47,12 +48,19 @@
         <dd><a href="tel:6130000000">613-000-0000</a></dd>
       </dl>
       <h2>Address</h2>
-      <address>
-        Jambox Studios<br>
-        123 Guitar Road,<br>
-        Musicville, Danceistan<br>
-        B3T 0L0
-      </address>
+   <ul itemscope itemtype="https://schema.org/Person">
+  <li itemprop="name"><strong>Tom</strong></li>
+  <li itemprop="jobTitle">Cheese Security</li>
+  <li itemprop="email">
+    <a href="mailto:tom@jefferyscheese.com">tom@jefferyscheese.com</a>
+  </li>
+  <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">001 Catguard Street</span><br>
+    <span itemprop="addressLocality">Mouse Town</span>, 
+    <span itemprop="addressCountry">Cheeseistan</span><br>
+    <span itemprop="postalCode">320 990</span>
+  </li>
+</ul>
     </section>
     
     <section class="contact-section">
